@@ -14,7 +14,7 @@ def category(request, category_id):
     return render(request, 'blog/category.html', {'topics': topics})
 
 
-def topic(request, topic_id):
+def topic(request, category_id, topic_id):
     posts = Post.objects.filter(topic_id=topic_id)
     return render(request, 'blog/topic.html', {'posts': posts})
 
