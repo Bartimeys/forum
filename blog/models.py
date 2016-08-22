@@ -19,14 +19,10 @@ class Topic(models.Model):
 
 class Post(models.Model):
     user = models.ForeignKey('auth.User')
-
+    title = models.CharField(verbose_name='Title', max_length=200)
     body = models.TextField()
     date = models.DateTimeField(default=timezone.now)
     topic = models.ForeignKey(Topic, on_delete=models.CASCADE)
-
-    def publish(self):
-        self.published_date = timezone.now()
-        self.save()
 
     def __str__(self):
         return self.title

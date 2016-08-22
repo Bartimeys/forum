@@ -1,0 +1,11 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+    {% for category in categories %}
+        <div>
+            <h1><a href="category/{{ category.id }}">{{ category }}</a></h1>
+            {#        <p>{{ post.body }}</p>#}
+            {#        <p>published: {{ post.date }}</p>#}
+        </div>
+    {% endfor %}
+{% endblock %}
