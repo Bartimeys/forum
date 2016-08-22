@@ -1,0 +1,42 @@
+from django.db import models
+from django.utils import timezone
+
+
+class Category(models.Model):
+    title = models.CharField(verbose_name='Title', max_length=200)
+
+    # topic = models.ForeignKey(Topic)
+    def __str__(self):
+        return str(self.title)
+
+class Topic(models.Model):
+    title = models.CharField(verbose_name='Title', max_length=200)
+    category = models.ForeignKey(Category, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return str(self.title)
+
+
+class Post(models.Model):
+    user = models.ForeignKey('auth.User')
+    # title = models.CharField(verbose_name='Title', max_length=200)
+    body = models.TextField()
+    date = models.DateTimeField(default=timezone.now)
+    topic = models.ForeignKey(Topic, on_delete=models.CASCADE)
+
+    # published_date = models.DateTimeField(
+    #         blank=True, null=True)
+
+    def publish(self):
+        self.published_date = timezone.now()
+        self.save()
+
+    def __str__(self):
+        return self.title
+
+
+
+
+
+
+
