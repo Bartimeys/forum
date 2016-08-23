@@ -4,6 +4,8 @@
     {% for  post in  posts %}
         <div>
             <h1>{{ post }}</h1>
+            <p>{{ post.body }}</p>
+            <p>{{ post.date }}</p>
         </div>
     {% endfor %}
 {% endblock %}
