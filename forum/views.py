@@ -20,20 +20,23 @@ class HomeView(View):
         return render(request, 'forum/home_page.html', {'categories': categories_model})
 
 class CategoryView(View):
+    model = Topic
+    context_object_name = 'topics'
+    template_name = 'forum/category.html'
 
     def get(self, request, category_id):
-        category_id = int(category_id)
+        category_id = int(self.kwargs['category_id'])
 
         model = Topic.objects.filter(category_id=category_id)
-        cat_f_top_model = []
+        category_model = []
         for topic in model:
             posts = Post.objects.filter(topic_id=topic.id).all()
             last_post = Post.objects.all()[Post.objects.count() - 1]
             date_last_post = last_post.date
             len_post_top = len(posts)
-            cat_f_top_model.append({'topic': topic, 'posts_count': len_post_top, 'datetime_last_post': date_last_post})
+            category_model.append({'topic': topic, 'posts_count': len_post_top, 'datetime_last_post': date_last_post})
 
-        return render(request, 'forum/category.html', {'topics': cat_f_top_model})
+        return render(request, 'forum/category.html', {'topics': category_model})
 
 class PostList(ListView):
     model = Post
