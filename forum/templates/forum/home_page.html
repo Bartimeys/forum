@@ -1,9 +1,9 @@
-{% extends 'blog/base.html' %}
+{% extends 'forum/base.html' %}
 
 {% block content %}
     {% for category in categories %}
         <div>
-            <h1><a href="category/{{ category.category.id }}">{{ category.category }}</a></h1>
+            <h1><a href="{% url 'category' category.category.id  %}">{{ category.category }}</a></h1>
         <p>All topics in category : {{ category.topics_count }}</p>
         <p>All posts in category : {{ category.posts_count }}</p>
         </div>

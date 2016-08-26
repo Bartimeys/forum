@@ -1,9 +1,9 @@
-{% extends 'blog/base.html' %}
+{% extends 'forum/base.html' %}
 
 {% block content %}
     {% for  topic in  topics %}
         <div>
-            <h1><a href="topic/{{ topic.topic.id }}">{{ topic.topic }}</a></h1>
+            <h1><a href="{% url 'topic' topic.topic.id  %}">{{ topic.topic }}</a></h1>
             <p>All posts in this category : {{ topic.posts_count }}</p>
             <p>Datetime of last post : {{ topic.datetime_last_post }}</p>
         </div>

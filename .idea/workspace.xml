@@ -2,8 +2,75 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1b58835-1591-4f32-884c-de14c1e1c3b0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/bin/wheel" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel-0.26.0.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel-0.26.0.dist-info/INSTALLER" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel-0.26.0.dist-info/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel-0.26.0.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel-0.26.0.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel-0.26.0.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel-0.26.0.dist-info/entry_points.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel-0.26.0.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel-0.26.0.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/__main__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/archive.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/bdist_wheel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/decorator.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/egg2wheel.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/eggnames.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/install.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/metadata.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/paths.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/pep425tags.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/pkginfo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/signatures/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/signatures/djbec.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/signatures/ed25519py.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/signatures/keys.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/complex-dist/complexdist/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/complex-dist/setup.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/headers.dist/header.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/headers.dist/headersdist.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/headers.dist/setup.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/pydist-schema.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/simple.dist/setup.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/simple.dist/simpledist/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/test-1.0-py2.py3-none-win32.whl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/test_basic.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/test_install.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/test_keys.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/test_paths.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/test_ranking.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/test_signatures.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/test_tagopt.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/test_tool.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/test_wheelfile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/tool/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/wininst2wheel.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/__init__.py" afterPath="$PROJECT_DIR$/forum/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/admin.py" afterPath="$PROJECT_DIR$/forum/admin.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/apps.py" afterPath="$PROJECT_DIR$/forum/apps.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/forum/migrations/0001_initial.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/migrations/0002_category_topic.py" afterPath="$PROJECT_DIR$/forum/migrations/0002_category_topic.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/migrations/0003_auto_20160822_1823.py" afterPath="$PROJECT_DIR$/forum/migrations/0003_auto_20160822_1823.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/migrations/0004_post_title.py" afterPath="$PROJECT_DIR$/forum/migrations/0004_post_title.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/migrations/__init__.py" afterPath="$PROJECT_DIR$/forum/migrations/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/models.py" afterPath="$PROJECT_DIR$/forum/models.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/style.css" afterPath="$PROJECT_DIR$/forum/static/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" afterPath="$PROJECT_DIR$/forum/templates/forum/base.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/templates/blog/category.html" afterPath="$PROJECT_DIR$/forum/templates/forum/category.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/templates/blog/home_page.html" afterPath="$PROJECT_DIR$/forum/templates/forum/home_page.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/templates/blog/topic.html" afterPath="$PROJECT_DIR$/forum/templates/forum/topic.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/tests.py" afterPath="$PROJECT_DIR$/forum/tests.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/urls.py" afterPath="$PROJECT_DIR$/forum/urls.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/views.py" afterPath="$PROJECT_DIR$/forum/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/settings.py" afterPath="$PROJECT_DIR$/mysite/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/urls.py" afterPath="$PROJECT_DIR$/mysite/urls.py" />
     </list>
     <ignored path="test_home.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,10 +113,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/urls.py">
+        <entry file="file://$PROJECT_DIR$/forum/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -57,71 +124,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="topic.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/templates/blog/topic.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="category.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/templates/blog/category.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home_page.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/templates/blog/home_page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog/views.py">
+        <entry file="file://$PROJECT_DIR$/forum/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            <state relative-caret-position="630">
+              <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="44" selection-end-column="53" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog_post" pinned="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/d96ca133/43691d9d-4aa5-42dc-aa38-a5a766ba0bb8/blog_post">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -144,7 +154,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/mysite/settings.py" />
-        <option value="$PROJECT_DIR$/mysite/urls.py" />
         <option value="$PROJECT_DIR$/blog/admin.py" />
         <option value="$PROJECT_DIR$/blog/templates/blog/post_list.html" />
         <option value="$PROJECT_DIR$/blog/static/css/style.css" />
@@ -155,12 +164,27 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/916ee156-05de-4d72-a9ce-7bc40a6666d4/console_1.sql" />
         <option value="$PROJECT_DIR$/mysite/wsgi.py" />
         <option value="$PROJECT_DIR$/blog/templates/blog/base.html" />
-        <option value="$PROJECT_DIR$/blog/urls.py" />
         <option value="$PROJECT_DIR$/blog/models.py" />
-        <option value="$PROJECT_DIR$/blog/templates/blog/category.html" />
         <option value="$PROJECT_DIR$/blog/templates/blog/topic.html" />
+        <option value="$PROJECT_DIR$/blog/urls.py" />
         <option value="$PROJECT_DIR$/blog/templates/blog/home_page.html" />
+        <option value="$PROJECT_DIR$/blog/templates/blog/category.html" />
         <option value="$PROJECT_DIR$/blog/views.py" />
+        <option value="$PROJECT_DIR$/forum/apps.py" />
+        <option value="$PROJECT_DIR$/forum/templates/blog/category.html" />
+        <option value="$PROJECT_DIR$/forum/templates/blog/home_page.html" />
+        <option value="$PROJECT_DIR$/forum/templates/blog/topic.html" />
+        <option value="$PROJECT_DIR$/mysite/urls.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/forum/migrations/0004_post_title.py" />
+        <option value="$PROJECT_DIR$/forum/migrations/0005_auto_20160824_0021.py" />
+        <option value="$PROJECT_DIR$/forum/migrations/0006_auto_20160824_0025.py" />
+        <option value="$PROJECT_DIR$/forum/migrations/0002_category_topic.py" />
+        <option value="$PROJECT_DIR$/forum/migrations/0003_auto_20160822_1823.py" />
+        <option value="$PROJECT_DIR$/forum/models.py" />
+        <option value="$PROJECT_DIR$/forum/templates/forum/base.html" />
+        <option value="$PROJECT_DIR$/forum/urls.py" />
+        <option value="$PROJECT_DIR$/forum/views.py" />
       </list>
     </option>
   </component>
@@ -230,7 +254,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
+              <option name="myItemId" value="mysite" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -244,7 +268,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
+              <option name="myItemId" value="forum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test_home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test_home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forum" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -252,7 +290,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
+              <option name="myItemId" value="forum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test_home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test_home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forum" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -571,7 +627,14 @@
       <option name="project" value="LOCAL" />
       <updated>1471993450234</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add count of topics, posts, ets">
+      <created>1471993507153</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1471993507153</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -582,6 +645,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2305141" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -595,7 +659,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -659,89 +722,15 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/topic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/category.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/urls.py">
+    <entry file="file://$PROJECT_DIR$/forum/templates/forum/category.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/topic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/category.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/urls.py">
+    <entry file="file://$PROJECT_DIR$/forum/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="20" />
@@ -751,7 +740,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/models.py">
+    <entry file="file://$PROJECT_DIR$/forum/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="5" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
@@ -761,7 +750,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/topic.html">
+    <entry file="file://$PROJECT_DIR$/forum/templates/forum/topic.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="14" />
@@ -769,43 +758,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/category.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/topic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/category.html">
+    <entry file="file://$PROJECT_DIR$/forum/templates/forum/category.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="67" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="14" />
@@ -813,7 +766,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/home_page.html">
+    <entry file="file://$PROJECT_DIR$/forum/templates/forum/home_page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="76" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="14" />
@@ -821,7 +774,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/base.html">
+    <entry file="file://$PROJECT_DIR$/forum/templates/forum/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -829,7 +782,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/urls.py">
+    <entry file="file://$PROJECT_DIR$/forum/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="20" />
@@ -846,7 +799,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/models.py">
+    <entry file="file://$PROJECT_DIR$/forum/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="5" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
@@ -856,7 +809,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/topic.html">
+    <entry file="file://$PROJECT_DIR$/forum/templates/forum/topic.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
@@ -865,7 +818,7 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/d96ca133/916ee156-05de-4d72-a9ce-7bc40a6666d4/blog_post" />
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/category.html">
+    <entry file="file://$PROJECT_DIR$/forum/templates/forum/category.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
@@ -873,7 +826,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views.py">
+    <entry file="file://$PROJECT_DIR$/forum/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="50" />
@@ -899,43 +852,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/migrations/__init__.py">
+    <entry file="file://$PROJECT_DIR$/forum/migrations/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/tests.py">
+    <entry file="file://$PROJECT_DIR$/forum/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/admin.py">
+    <entry file="file://$PROJECT_DIR$/forum/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/static/css/style.css">
+    <entry file="file://$PROJECT_DIR$/forum/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -952,62 +890,11 @@
     <entry file="dbDummy://dbtable:/d96ca133/916ee156-05de-4d72-a9ce-7bc40a6666d4/blog_category" />
     <entry file="dbDummy://dbtable:/d96ca133/916ee156-05de-4d72-a9ce-7bc40a6666d4/blog_topic" />
     <entry file="dbDummy://dbtable:/d96ca133/916ee156-05de-4d72-a9ce-7bc40a6666d4/blog_post" />
-    <entry file="file://$PROJECT_DIR$/mysite/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/d96ca133/916ee156-05de-4d72-a9ce-7bc40a6666d4/blog_post" />
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/43691d9d-4aa5-42dc-aa38-a5a766ba0bb8/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/category.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/topic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1025,18 +912,182 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/home_page.html">
+    <entry file="file://$PROJECT_DIR$/mysite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        <state relative-caret-position="60">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views.py">
+    <entry file="file://$PROJECT_DIR$/mysite/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="105">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forum/migrations/0003_auto_20160822_1823.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" column="101" selection-start-line="28" selection-start-column="101" selection-end-line="28" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forum/migrations/0002_category_topic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forum/migrations/0006_auto_20160824_0025.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forum/migrations/0005_auto_20160824_0021.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forum/migrations/0004_post_title.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forum/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forum/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forum/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/django/views/generic/list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="153" column="6" selection-start-line="153" selection-start-column="6" selection-end-line="153" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forum/templates/forum/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/django/shortcuts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/django/views/generic/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1134">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forum/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forum/templates/forum/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forum/templates/forum/topic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forum/templates/forum/home_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forum/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="44" selection-end-column="53" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

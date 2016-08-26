@@ -9,7 +9,7 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('blog', '0002_category_topic'),
+        ('forum', '0002_category_topic'),
     ]
 
     operations = [
@@ -20,13 +20,13 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='post',
             name='topic',
-            field=models.ForeignKey(default=0, on_delete=django.db.models.deletion.CASCADE, to='blog.Topic'),
+            field=models.ForeignKey(default=0, on_delete=django.db.models.deletion.CASCADE, to='forum.Topic'),
             preserve_default=False,
         ),
         migrations.AddField(
             model_name='topic',
             name='category',
-            field=models.ForeignKey(default=0, on_delete=django.db.models.deletion.CASCADE, to='blog.Category'),
+            field=models.ForeignKey(default=0, on_delete=django.db.models.deletion.CASCADE, to='forum.Category'),
             preserve_default=False,
         ),
     ]
