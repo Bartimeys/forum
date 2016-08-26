@@ -2,75 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1b58835-1591-4f32-884c-de14c1e1c3b0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/bin/wheel" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel-0.26.0.dist-info/DESCRIPTION.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel-0.26.0.dist-info/INSTALLER" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel-0.26.0.dist-info/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel-0.26.0.dist-info/METADATA" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel-0.26.0.dist-info/RECORD" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel-0.26.0.dist-info/WHEEL" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel-0.26.0.dist-info/entry_points.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel-0.26.0.dist-info/metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel-0.26.0.dist-info/top_level.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/__main__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/archive.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/bdist_wheel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/decorator.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/egg2wheel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/eggnames.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/install.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/metadata.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/paths.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/pep425tags.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/pkginfo.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/signatures/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/signatures/djbec.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/signatures/ed25519py.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/signatures/keys.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/complex-dist/complexdist/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/complex-dist/setup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/headers.dist/header.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/headers.dist/headersdist.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/headers.dist/setup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/pydist-schema.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/simple.dist/setup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/simple.dist/simpledist/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/test-1.0-py2.py3-none-win32.whl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/test_basic.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/test_install.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/test_keys.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/test_paths.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/test_ranking.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/test_signatures.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/test_tagopt.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/test_tool.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/test/test_wheelfile.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/tool/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/util.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myvenv/lib/python2.7/site-packages/wheel/wininst2wheel.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/__init__.py" afterPath="$PROJECT_DIR$/forum/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/admin.py" afterPath="$PROJECT_DIR$/forum/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/apps.py" afterPath="$PROJECT_DIR$/forum/apps.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/forum/migrations/0001_initial.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/migrations/0002_category_topic.py" afterPath="$PROJECT_DIR$/forum/migrations/0002_category_topic.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/migrations/0003_auto_20160822_1823.py" afterPath="$PROJECT_DIR$/forum/migrations/0003_auto_20160822_1823.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/migrations/0004_post_title.py" afterPath="$PROJECT_DIR$/forum/migrations/0004_post_title.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/migrations/__init__.py" afterPath="$PROJECT_DIR$/forum/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/models.py" afterPath="$PROJECT_DIR$/forum/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/static/css/style.css" afterPath="$PROJECT_DIR$/forum/static/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" afterPath="$PROJECT_DIR$/forum/templates/forum/base.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/templates/blog/category.html" afterPath="$PROJECT_DIR$/forum/templates/forum/category.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/templates/blog/home_page.html" afterPath="$PROJECT_DIR$/forum/templates/forum/home_page.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/templates/blog/topic.html" afterPath="$PROJECT_DIR$/forum/templates/forum/topic.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/tests.py" afterPath="$PROJECT_DIR$/forum/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/urls.py" afterPath="$PROJECT_DIR$/forum/urls.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/views.py" afterPath="$PROJECT_DIR$/forum/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/settings.py" afterPath="$PROJECT_DIR$/mysite/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/urls.py" afterPath="$PROJECT_DIR$/mysite/urls.py" />
     </list>
     <ignored path="test_home.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -241,74 +173,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test_home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mysite" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forum" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -634,23 +498,30 @@
       <option name="project" value="LOCAL" />
       <updated>1471993507153</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add new views">
+      <created>1472202686250</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1472202686250</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1176" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14870094" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14870094" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2305141" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2009804" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2009804" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -715,7 +586,8 @@
     <MESSAGE value="third commit" />
     <MESSAGE value="add post in topic" />
     <MESSAGE value="add count of topics, posts, ets" />
-    <option name="LAST_COMMIT_MESSAGE" value="add count of topics, posts, ets" />
+    <MESSAGE value="add new views" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new views" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
