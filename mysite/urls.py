@@ -1,16 +1,7 @@
-from . import views
-from django.conf import settings
-from django.conf.urls import include, patterns, url
+from django.conf.urls import include, url
+from django.contrib import admin
 
 urlpatterns = [
-    url(r'^$', views.HomeView.as_view(), name='home_page'),
-    url(r'^category/(?P<category_id>[0-9]+)/$', views.CategoryView.as_view(), name='category'),
-    url(r'^topic/(?P<topic_id>[0-9]+)/$', views.PostList.as_view(), name='topic'),
-
+    url(r'^admin/', include(admin.site.urls)),
+    url(r'', include('forum.urls')),
 ]
-if settings.DEBUG:
-    import debug_toolbar
-
-    urlpatterns += [
-        url(r'^__debug__/', include(debug_toolbar.urls)),
-    ]
