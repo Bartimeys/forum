@@ -1,7 +1,7 @@
 {% extends 'forum/base.html' %}
 
 {% block content %}
-    {% for  topic in  topics %}
+    {% for  topic in  category_model %}
         <div>
             <h1><a href="{% url 'topic' topic.topic.id  %}">{{ topic.topic }}</a></h1>
             <p>All posts in this category : {{ topic.posts_count }}</p>
