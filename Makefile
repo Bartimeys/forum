@@ -1,10 +1,8 @@
-node {
-  stage 'git'
-  git url: 'https://github.com/Bartimeys/forum'
-  
-  stage 'install'
-  sh "make install"
-  
-  stage "flake8"
-  sh "make flake8"
-}
+install:
+	virtualenv venv --python=python3; \
+	. venv/bin/activate; \
+	pip3 install flake8; \
+
+flake8:
+	. venv/bin/activate; \
+	flake8 --exclude=venv --max-line-length=120; \
