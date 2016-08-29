@@ -1,6 +1,6 @@
 node {
   stage 'git'
-  git branch: 'FRM-12_integration_to_jenkins', url: 'https://github.com/Bartimeys/forum'
+  git branch: BRANCH_NAME, url: 'https://github.com/Bartimeys/forum'
   
   stage 'install'
   sh "make install"
