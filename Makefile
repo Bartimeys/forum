@@ -1,5 +1,5 @@
 install:
-	virtualenv venv --python=python3; \
+	virtualenv venv; \
 	. venv/bin/activate; \
 	pip3 install -r requirements.txt; \
 
