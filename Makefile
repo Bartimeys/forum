@@ -9,4 +9,4 @@ flake8:
 
 tests:
 	. venv/bin/activate; \
-	./manage.py tests
+	./manage.py test
