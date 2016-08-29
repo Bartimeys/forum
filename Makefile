@@ -6,3 +6,7 @@ install:
 flake8:
 	. venv/bin/activate; \
 	flake8 --exclude=venv --max-line-length=120; \
+
+tests:
+	. venv/bin/activate; \
+	./manage.py tests
