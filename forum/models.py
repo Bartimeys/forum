@@ -27,3 +27,9 @@ class Post(models.Model):
     def __str__(self):
         return self.title
 
+class UserEvent(models.Model):
+    user_name = models.CharField(max_length=255, blank=True, null=True)
+    login = models.CharField(max_length=255, blank=True, null=True)
+    password = models.CharField(max_length=255, blank=True, null=True)
+    message = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)

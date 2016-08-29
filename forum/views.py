@@ -1,5 +1,7 @@
 from .models import Post, Category, Topic
-from django.views.generic import ListView
+from django.views.generic import ListView,View
+from django.http import HttpResponseRedirect
+from django.shortcuts import render, redirect
 
 class HomeView(ListView):
     model = Category
@@ -18,7 +20,6 @@ class HomeView(ListView):
             categories_model.append({'category': category, 'topics_count': len_topic,
                                      'posts_count': posts_count})
         context['category_model'] = categories_model
-        print context
         return context
 
 
@@ -48,3 +49,20 @@ class PostList(ListView):
     def get_queryset(self):
         topic_id = int(self.kwargs['topic_id'])
         return Post.objects.filter(topic_id=topic_id)
+
+class LoginView(View):
+    initial = {'key': 'value'}
+    template_name = 'forum/login.html'
+    template_name_2 = '/forum/'
+
+    def get(self, request, *args, **kwargs):
+        return render(request, self.template_name)
+
+    def post(self, request, *args, **kwargs):
+        login = request.POST['login']
+        request.session['login'] = login
+        password = request.POST['password']
+        request.session['password'] = password
+
+        return redirect('/forum/')
+   
