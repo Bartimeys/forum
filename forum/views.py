@@ -1,8 +1,5 @@
-from django.shortcuts import render
 from .models import Post, Category, Topic
-from django.views.generic import View, ListView, DetailView
-from django.utils import timezone
-
+from django.views.generic import ListView
 
 class HomeView(ListView):
     model = Category
@@ -10,7 +7,6 @@ class HomeView(ListView):
 
     def get_context_data(self, **kwargs):
         context = super(HomeView, self).get_context_data(**kwargs)
-        # category_id = int(self.kwargs['category_id'])
         categories_model = []
         for category in Category.objects.all():
             topics = Topic.objects.filter(category_id=category.id).all()
