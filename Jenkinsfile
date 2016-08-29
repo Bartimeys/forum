@@ -1,6 +1,6 @@
 node {
   stage 'git'
-  git branch: BRANCH_NAME, url: 'https://github.com/Bartimeys/forum'
+  checkout scm
   
   stage 'install'
   sh "make install"
