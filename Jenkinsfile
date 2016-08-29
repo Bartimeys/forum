@@ -1,6 +1,6 @@
 node {
   stage 'git'
-  git url: 'https://github.com/Bartimeys/forum/tree/FRM-12_integration_to_jenkins'
+  git url: 'https://github.com/Bartimeys/forum'
   
   stage 'install'
   sh "make install"
