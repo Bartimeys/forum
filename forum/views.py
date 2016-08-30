@@ -65,4 +65,3 @@ class LoginView(View):
         request.session['password'] = password
 
         return redirect('/forum/')
-   
