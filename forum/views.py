@@ -2,6 +2,9 @@ from .models import Post, Category, Topic
 from django.views.generic import ListView,View
 from django.http import HttpResponseRedirect
 from django.shortcuts import render, redirect
+from django.shortcuts import render, get_object_or_404
+from .forms import PostForm
+from django.shortcuts import redirect
 
 class HomeView(ListView):
     model = Category
@@ -65,3 +68,43 @@ class LoginView(View):
         request.session['password'] = password
 
         return redirect('/forum/')
+
+class PostDetail(ListView):
+    model = Post
+    template_name = 'forum/post_detail.html'
+
+    def get_context_data(self, **kwargs):
+        post_model = []
+        post = get_object_or_404(Post)
+        context = super(PostDetail, self).get_context_data(**kwargs)
+        post_model.append({'post': post})
+        print context
+        return context
+    # return render(request, 'forum/post_detail.html', {'post': post})
+
+def post_edit(request, pk):
+    post = get_object_or_404(Post, pk=pk)
+    if request.method == "POST":
+        form = PostForm(request.POST, instance=post)
+        if form.is_valid():
+            post = form.save(commit=False)
+            post.user = request.user
+            print request.user
+            post.save()
+            return redirect('forum.views.post_detail', pk=post.pk)
+    else:
+        form = PostForm(instance=post)
+    return render(request, 'forum/post_edit.html', {'form': form})
+
+
+def post_new(request):
+    if request.method == "POST":
+        form = PostForm(request.POST)
+        if form.is_valid():
+            post = form.save(commit=False)
+            post.user = request.user
+            post.save()
+            return redirect('forum.views.post_detail', pk=post.pk)
+    else:
+        form = PostForm()
+    return render(request, 'forum/post_edit.html', {'form': form})
