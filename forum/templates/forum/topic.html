@@ -9,8 +9,9 @@
     {% for  post in  posts %}
         <div>
         <h1></h1>
-            <h1>{{ post }}</h1>
-            <p>{{ post.body }}</p>
+             <h1>{{ post}}&nbsp;&nbsp;<a class="btn btn-default" href="{% url 'post_edit' %}"><span
+                            class="glyphicon glyphicon-pencil"></span></a></h1>
+            <p>{{ post.body |linebreaksbr }}</p>
             <p>{{ post.date }}</p>
         </div>
     {% endfor %}

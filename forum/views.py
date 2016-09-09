@@ -1,10 +1,10 @@
-from .models import Post, Category, Topic
-from django.views.generic import ListView,View
 from django.http import HttpResponseRedirect
-from django.shortcuts import render, redirect
 from django.shortcuts import render, get_object_or_404
+from django.views.generic import ListView, View
+
 from .forms import PostForm
-from django.shortcuts import redirect
+from .models import Post, Category, Topic
+
 
 class HomeView(ListView):
     model = Category
@@ -53,21 +53,6 @@ class PostList(ListView):
         topic_id = int(self.kwargs['topic_id'])
         return Post.objects.filter(topic_id=topic_id)
 
-class LoginView(View):
-    initial = {'key': 'value'}
-    template_name = 'forum/login.html'
-    template_name_2 = '/forum/'
-
-    def get(self, request, *args, **kwargs):
-        return render(request, self.template_name)
-
-    def post(self, request, *args, **kwargs):
-        login = request.POST['login']
-        request.session['login'] = login
-        password = request.POST['password']
-        request.session['password'] = password
-
-        return redirect('/forum/')
 
 class PostDetail(ListView):
     model = Post
@@ -80,31 +65,57 @@ class PostDetail(ListView):
         post_model.append({'post': post})
         print context
         return context
-    # return render(request, 'forum/post_detail.html', {'post': post})
+        # return render(request, 'forum/post_detail.html', {'post': post})
 
-def post_edit(request, pk):
-    post = get_object_or_404(Post, pk=pk)
-    if request.method == "POST":
-        form = PostForm(request.POST, instance=post)
+
+class PostEdit(View):
+    form_class = PostForm
+    initial = {'key': 'value'}
+    template_name = 'forum/post_edit.html'
+    id = None
+
+    def get_queryset(self):
+        self.post = get_object_or_404(Post, self.kwargs['pk'])
+        return self.post
+
+    def get(self, request):
+        form = self.form_class(initial=self.initial)
+
+        return render(request, self.template_name, {'form': form})
+
+    def post(self, request, *args, **kwargs):
+        form = self.form_class(request.POST)
         if form.is_valid():
             post = form.save(commit=False)
             post.user = request.user
-            print request.user
             post.save()
-            return redirect('forum.views.post_detail', pk=post.pk)
-    else:
-        form = PostForm(instance=post)
-    return render(request, 'forum/post_edit.html', {'form': form})
+            return HttpResponseRedirect('forum/post_detail.html')
+
+        return render(request, self.template_name, {'form': form})
 
 
-def post_new(request):
-    if request.method == "POST":
-        form = PostForm(request.POST)
+class PostNew(View):
+    form_class = PostForm
+    initial = {'key': 'value'}
+    template_name = 'forum/post_edit.html'
+
+    def get(self, request, *args, **kwargs):
+        form = self.form_class(initial=self.initial)
+        return render(request, self.template_name, {'form': form})
+
+    def post(self, request, *args, **kwargs):
+        form = self.form_class(request.POST)
         if form.is_valid():
             post = form.save(commit=False)
             post.user = request.user
             post.save()
-            return redirect('forum.views.post_detail', pk=post.pk)
-    else:
-        form = PostForm()
-    return render(request, 'forum/post_edit.html', {'form': form})
+            return HttpResponseRedirect('/success/')
+
+        return render(request, self.template_name, {'form': form})
+
+
+class SuccessView(View):
+    template_name = 'forum/success.html'
+
+    def get(self, request):
+        return render(request, self.template_name)

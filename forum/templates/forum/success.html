@@ -1,0 +1,18 @@
+{% extends 'forum/base.html' %}
+
+{% block content %}
+    <div class="post">
+        {% if post.date %}
+            <div class="date">
+                {{ post.date }}
+            </div>
+        {% endif %}
+        <div class="success-msg">
+            <i class="fa fa-check"></i>
+            Success You add new post in topic.
+        </div>
+        <div class="success-msg">
+           <a href="/">Return to topics</a>
+        </div>
+    </div>
+{% endblock %}
