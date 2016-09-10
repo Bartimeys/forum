@@ -1,6 +1,6 @@
 from django.http import HttpResponseRedirect
 from django.shortcuts import render, get_object_or_404
-from django.views.generic import ListView, View
+from django.views.generic import ListView, TemplateView, View, CreateView, UpdateView
 
 from .forms import PostForm
 from .models import Post, Category, Topic
@@ -113,9 +113,21 @@ class PostNew(View):
 
         return render(request, self.template_name, {'form': form})
 
+class PostCreate(CreateView):
+    model = Post
+    fields = ['title','body','topic']
 
-class SuccessView(View):
+
+class PostUpdate(UpdateView):
+    model = Post
+    fields = ['title','body','topic']
+    template_name_suffix = '_update_form'
+
+
+class SuccessView(TemplateView):
     template_name = 'forum/success.html'
 
-    def get(self, request):
-        return render(request, self.template_name)
+    def get_context_data(self, **kwargs):
+        context = super(SuccessView, self).get_context_data(**kwargs)
+        return context
+

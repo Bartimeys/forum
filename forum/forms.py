@@ -5,6 +5,9 @@ from .models import Post
 
 class PostForm(forms.ModelForm):
 
-    class Meta:
-        model = Post
-        fields = ('title', 'body','topic')
+    title = forms.CharField()
+    body = forms.CharField(widget=forms.Textarea)
+
+    def send_post(self):
+        # send email using the self.cleaned_data dictionary
+        pass

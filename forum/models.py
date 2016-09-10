@@ -1,5 +1,6 @@
 from django.db import models
 from django.utils import timezone
+from django.core.urlresolvers import reverse
 
 
 class Category(models.Model):
@@ -24,12 +25,8 @@ class Post(models.Model):
     date = models.DateTimeField(default=timezone.now)
     topic = models.ForeignKey(Topic, on_delete=models.CASCADE)
 
+    def get_absolute_url(self):
+        return reverse('post-detail', kwargs={'pk': self.pk})
+
     def __str__(self):
         return self.title
-
-class UserEvent(models.Model):
-    user_name = models.CharField(max_length=255, blank=True, null=True)
-    login = models.CharField(max_length=255, blank=True, null=True)
-    password = models.CharField(max_length=255, blank=True, null=True)
-    message = models.TextField()
-    created_at = models.DateTimeField(auto_now_add=True)
