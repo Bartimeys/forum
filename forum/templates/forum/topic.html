@@ -3,13 +3,13 @@
 
 {% block content %}
     {% if user.is_authenticated %}
-        <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+        <a href="{% url 'post_create' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
     {% endif %}
     <h1><a href="/">Blog</a></h1>
     {% for  post in  posts %}
         <div>
         <h1></h1>
-             <h1>{{ post}}&nbsp;&nbsp;<a class="btn btn-default" href="{% url 'post_edit' %}"><span
+             <h1>{{ post}}&nbsp;&nbsp;<a class="btn btn-default" href="{% url 'post_update' %}"><span
                             class="glyphicon glyphicon-pencil"></span></a></h1>
             <p>{{ post.body |linebreaksbr }}</p>
             <p>{{ post.date }}</p>
