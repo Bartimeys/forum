@@ -1,6 +1,6 @@
 from django.db import models
 from django.utils import timezone
-
+from django.core.urlresolvers import reverse
 
 class Category(models.Model):
     title = models.CharField(verbose_name='Title', max_length=200)
@@ -23,6 +23,9 @@ class Post(models.Model):
     body = models.TextField()
     date = models.DateTimeField(default=timezone.now)
     topic = models.ForeignKey(Topic, on_delete=models.CASCADE)
+
+    def get_absolute_url(self):
+        return reverse('post_detail', kwargs={'pk': self.pk})
 
     def __str__(self):
         return self.title
