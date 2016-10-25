@@ -1,5 +1,6 @@
 from django.http import HttpResponseRedirect
 from django.shortcuts import render, get_object_or_404
+from django.views.generic import DetailView
 from django.views.generic import ListView, TemplateView, View, CreateView, UpdateView
 
 from .forms import PostForm
@@ -54,64 +55,12 @@ class PostList(ListView):
         return Post.objects.filter(topic_id=topic_id)
 
 
-class PostDetail(ListView):
+class PostDetail(DetailView):
     model = Post
     template_name = 'forum/post_detail.html'
 
-    def get_context_data(self, **kwargs):
-        post_model = []
-        post = get_object_or_404(Post)
-        context = super(PostDetail, self).get_context_data(**kwargs)
-        post_model.append({'post': post})
-        print context
-        return context
-        # return render(request, 'forum/post_detail.html', {'post': post})
-#
-#
-# class PostEdit(View):
-#     form_class = PostForm
-#     initial = {'key': 'value'}
-#     template_name = 'forum/post_edit.html'
-#     id = None
-#
-#     def get_queryset(self):
-#         self.post = get_object_or_404(Post, self.kwargs['pk'])
-#         return self.post
-#
-#     def get(self, request):
-#         form = self.form_class(initial=self.initial)
-#
-#         return render(request, self.template_name, {'form': form})
-#
-#     def post(self, request, *args, **kwargs):
-#         form = self.form_class(request.POST)
-#         if form.is_valid():
-#             post = form.save(commit=False)
-#             post.user = request.user
-#             post.save()
-#             return HttpResponseRedirect('forum/post_detail.html')
-#
-#         return render(request, self.template_name, {'form': form})
-#
-#
-# class PostNew(View):
-#     form_class = PostForm
-#     initial = {'key': 'value'}
-#     template_name = 'forum/post_edit.html'
-#
-#     def get(self, request, *args, **kwargs):
-#         form = self.form_class(initial=self.initial)
-#         return render(request, self.template_name, {'form': form})
-#
-#     def post(self, request, *args, **kwargs):
-#         form = self.form_class(request.POST)
-#         if form.is_valid():
-#             post = form.save(commit=False)
-#             post.user = request.user
-#             post.save()
-#             return HttpResponseRedirect('/success/')
-#
-#         return render(request, self.template_name, {'form': form})
+
+
 
 class PostCreate(CreateView):
     model = Post
@@ -119,6 +68,7 @@ class PostCreate(CreateView):
 
     def form_valid(self, form):
         form.instance.user = self.request.user
+        print super(PostCreate, self).form_valid(form)
         return super(PostCreate, self).form_valid(form)
 
 class PostUpdate(UpdateView):
