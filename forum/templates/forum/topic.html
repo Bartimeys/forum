@@ -9,7 +9,7 @@
     {% for  post in  posts %}
         <div>
         <h1></h1>
-             <h1>{{ post}}&nbsp;&nbsp;<a class="btn btn-default" href="{% url 'post_update' %}"><span
+             <h1>{{ post}}&nbsp;&nbsp;<a class="btn btn-default" href="{% url 'post_update_form' pk=post.pk %}"><span
                             class="glyphicon glyphicon-pencil"></span></a></h1>
             <p>{{ post.body |linebreaksbr }}</p>
             <p>{{ post.date }}</p>
