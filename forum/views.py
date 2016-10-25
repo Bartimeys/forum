@@ -76,11 +76,3 @@ class PostUpdate(UpdateView):
     fields = ['title','body','topic']
     template_name_suffix = '_update_form'
 
-
-class SuccessView(TemplateView):
-    template_name = 'forum/success.html'
-
-    def get_context_data(self, **kwargs):
-        context = super(SuccessView, self).get_context_data(**kwargs)
-        return context
-
