@@ -10,25 +10,11 @@
                         {% csrf_token %}
                         <input type="text" class="form-control" placeholder="Username" required autofocus
                                value="{{ form.username }}">
-{#                        <br>#}
-{#                        <input type="text" class="form-control" placeholder="First Name" required autofocus#}
-{#                               value="{{ first_name }}">#}
-{#                        <br>#}
-{#                        <input type="text" class="form-control" placeholder="Last Name" required autofocus#}
-{#                               value="{{ last_name }}">#}
-{#                        <br>#}
-{#                        <input type="text" class="form-control" placeholder="Email" required autofocus#}
-{#                               value="{{ email }}">#}
-{#                        <br>#}
                         <input type="password" class="form-control" placeholder="Password" required autofocus
                                value="{{ form.password1 }}">
                         <input type="password" class="form-control" placeholder="Password" required autofocus
                                value="{{ form.password2 }}">
                         <input class="btn btn-lg btn-primary btn-block" type="submit" value="Register">
-                        {#                        <label class="checkbox pull-left">#}
-                        {#                            <input type="checkbox" value="remember-me">#}
-                        {#                            Remember me#}
-                        {#                        </label>#}
                         <a href="#" class="pull-right need-help">Need help? </a><span class="clearfix"></span>
                     </form>
                 </div>
@@ -36,11 +22,4 @@
             </div>
         </div>
     </div>
-    {#    <h3>Already a user? <a href="{% url 'accounts-login' %}">Login</a></h3>#}
-    {#    <form action="{% url 'accounts-register' %}" method="post">#}
-    {#    {% csrf_token %}#}
-    {#    {{ form }}#}
-    {#    <input type="submit" value="Register">#}
-    {#  </form>#}
-
 {% endblock %}
