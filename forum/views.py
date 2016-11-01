@@ -18,11 +18,11 @@ class Register(View):
     def post(self, request):
         form = self.form(request.POST)
         if form.is_valid():
-            print 'here'
+            print form
             form.save()
-            return redirect('/forum/account/success')
+            return render(request, 'forum/account/success.html')
         else:
-            print 'there'
+            print form
             context = {'form': form}
             return render(request, 'forum/account/register.html', context)
 
