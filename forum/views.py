@@ -6,6 +6,57 @@ from django.views.generic import ListView, TemplateView, View, CreateView, Updat
 from .forms import PostForm
 from .models import Post, Category, Topic
 from django.contrib.auth.models import User
+from django.shortcuts import render, redirect
+from django.contrib.auth import forms, login, logout, authenticate
+from django.views.generic import View
+
+# Create your views here.
+class Register(View):
+  form = forms.UserCreationForm
+
+  def get(self, request):
+    context = {'form' : self.form()}
+    return render(request, 'forum/account/register.html', context)
+
+  def post(self, request):
+    form = self.form(request.POST)
+    if form.is_valid():
+      print 'here'
+      form.save()
+      return redirect('/forum/account/success')
+    else:
+      print 'there'
+      context = {'form': form}
+      return render(request, 'forum/account/register.html', context)
+
+class Login(View):
+  form = forms.AuthenticationForm
+  def get(self, request):
+    context = {'form' : self.form()}
+    return render(request, 'forum/account/login.html', context)
+  def post(self, request):
+    form = self.form(None, request.POST)
+    context = {'form': form}
+    if form.is_valid():
+      username = form.cleaned_data['username']
+      password = form.cleaned_data['password']
+      user = authenticate(username=username, password=password)
+      if user is not None:
+        login(request, user)
+        return redirect('/forum/account/success')
+      else:
+        return render(request, 'forum/account/login.html', context)
+    else:
+      return render(request, 'forum/account/login.html', context)
+
+class Success(View):
+  def get(self, request):
+    return render(request, 'forum/account/success.html')
+
+class Logout(View):
+  def get(self, request):
+    logout(request)
+    return redirect('/forum/account/login')
 
 class HomeView(ListView):
     model = Category
