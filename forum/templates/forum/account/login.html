@@ -8,8 +8,7 @@
                 <div class="account-wall">
                     <form class="form-signin" action="{% url 'accounts-login' %}" method="post">
                         {% csrf_token %}
-                        <input type="text" class="form-control" placeholder="Username" value="{{ form.username }}"  required autofocus>
-                        <input type="password" class="form-control" placeholder="Password" value="{{ form.password }}" required autofocus >
+                        {{form.as_p}}
                         <input class="btn btn-lg btn-primary btn-block" type="submit" value="Login">
                         <a href="#" class="pull-right need-help">Need help? </a><span class="clearfix"></span>
                     </form>

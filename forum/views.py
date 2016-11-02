@@ -1,65 +1,46 @@
-from django.contrib.auth import forms, login, logout, authenticate
-from django.shortcuts import render, redirect
+from django.contrib.auth import login
+from django.contrib.auth import logout
+from django.contrib.auth.forms import AuthenticationForm
+from django.http import HttpResponseRedirect
 from django.views.generic import DetailView
+from django.views.generic import FormView
 from django.views.generic import ListView, CreateView, UpdateView
-from django.views.generic import View
+from django.views.generic.base import View, TemplateView
 
+from forum.forms import RegisterForm
 from .models import Post, Category, Topic
 
 
-# Create your views here.
-class Register(View):
-    form = forms.UserCreationForm
+class RegisterView(FormView):
+    form_class = RegisterForm
+    success_url = "/home"
+    template_name = "forum/account/register.html"
 
-    def get(self, request):
-        context = {'form': self.form()}
-        return render(request, 'forum/account/register.html', context)
-
-    def post(self, request):
-        form = self.form(request.POST)
-        if form.is_valid():
-            print form
-            form.save()
-            return render(request, 'forum/account/success.html')
-        else:
-            print form
-            context = {'form': form}
-            return render(request, 'forum/account/register.html', context)
+    def form_valid(self, form):
+        form.save()
+        return super(RegisterView, self).form_valid(form)
 
 
-class Login(View):
-    form = forms.AuthenticationForm
+class LoginView(FormView):
+    form_class = AuthenticationForm
+    success_url = "/home"
+    template_name = "forum/account/login.html"
 
-    def get(self, request):
-        context = {'form': self.form()}
-        return render(request, 'forum/account/login.html', context)
+    def form_valid(self, form):
+        self.user = form.get_user()
+        login(self.request, self.user)
+        return super(LoginView, self).form_valid(form)
 
-    def post(self, request):
-        form = self.form(None, request.POST)
-        context = {'form': form}
-        if form.is_valid():
-            username = form.cleaned_data['username']
-            password = form.cleaned_data['password']
-            user = authenticate(username=username, password=password)
-            if user is not None:
-                login(request, user)
-                return redirect('/forum/account/success')
-            else:
-                return render(request, 'forum/account/login.html', context)
-        else:
-            return render(request, 'forum/account/login.html', context)
+class SuccesView(TemplateView):
+    template_name = 'forum/account/success.html'
 
+    def dispatch(self, *args, **kwargs):
+        return super(SuccesView, self).dispatch(*args, **kwargs)
 
-class Success(View):
-    def get(self, request):
-        return render(request, 'forum/account/success.html')
-
-
-class Logout(View):
+class LogoutView(View):
     def get(self, request):
         logout(request)
-        return redirect('/forum/account/login')
-
+        return HttpResponseRedirect("/home")
 
 class HomeView(ListView):
     model = Category

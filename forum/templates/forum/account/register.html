@@ -8,14 +8,10 @@
                 <div class="account-wall">
                     <form class="form-signin" action="{% url 'accounts-register' %}" method="post">
                         {% csrf_token %}
-                        <input type="text" class="form-control" placeholder="Username" required autofocus
-                               value="{{ form.username }}">
-                        <input type="password" class="form-control" placeholder="Password" required autofocus
-                               value="{{ form.password1 }}">
-                        <input type="password" class="form-control" placeholder="Password" required autofocus
-                               value="{{ form.password2 }}">
+                        {{ form.as_p }}
                         <input class="btn btn-lg btn-primary btn-block" type="submit" value="Register">
                         <a href="#" class="pull-right need-help">Need help? </a><span class="clearfix"></span>
+
                     </form>
                 </div>
                 <a class="text-center new-account" href="{% url 'accounts-login' %}">Sign in </a>
