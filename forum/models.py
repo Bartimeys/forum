@@ -1,6 +1,7 @@
+from django.core.urlresolvers import reverse
 from django.db import models
 from django.utils import timezone
-from django.core.urlresolvers import reverse
+
 
 class Category(models.Model):
     title = models.CharField(verbose_name='Title', max_length=200)

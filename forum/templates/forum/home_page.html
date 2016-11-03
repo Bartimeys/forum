@@ -3,9 +3,9 @@
 {% block content %}
     {% for category in category_model %}
         <div>
-            <h1><a href="{% url 'category' category.category.id  %}">{{ category.category }}</a></h1>
-        <p>All topics in category : {{ category.topics_count }}</p>
-        <p>All posts in category : {{ category.posts_count }}</p>
+            <h1><a href="{% url 'category' category.category.id %}">{{ category.category }}</a></h1>
+            <p>All topics in category : {{ category.topics_count }}</p>
+            <p>All posts in category : {{ category.posts_count }}</p>
         </div>
     {% endfor %}
 {% endblock %}

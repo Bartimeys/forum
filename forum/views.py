@@ -2,6 +2,7 @@ from django.contrib.auth import login
 from django.contrib.auth import logout
 from django.contrib.auth.forms import AuthenticationForm
 from django.core.urlresolvers import reverse
+from django.core.urlresolvers import reverse_lazy
 from django.views.generic import DetailView
 from django.views.generic import FormView
 from django.views.generic import ListView, CreateView, UpdateView
@@ -13,8 +14,9 @@ from .models import Post, Category, Topic
 
 class RegisterView(FormView):
     form_class = RegisterForm
-    success_url = "/success/"
+    success_url = reverse_lazy('accounts-success')
     template_name = "forum/account/register.html"
+
 
     def form_valid(self, form):
         form.save()
@@ -23,7 +25,7 @@ class RegisterView(FormView):
 
 class LoginView(FormView):
     form_class = AuthenticationForm
-    success_url = "/success/"
+    success_url = reverse_lazy('accounts-success')
     template_name = "forum/account/login.html"
 
     def form_valid(self, form):
@@ -32,7 +34,7 @@ class LoginView(FormView):
         return super(LoginView, self).form_valid(form)
 
 class SuccesView(TemplateView):
-    template_name = 'forum/account/success.html'
+    template_name = "forum/account/success.html"
 
 
 class LogoutView(RedirectView):
