@@ -1,11 +1,11 @@
 from django.contrib.auth import login
 from django.contrib.auth import logout
 from django.contrib.auth.forms import AuthenticationForm
-from django.http import HttpResponseRedirect
+from django.core.urlresolvers import reverse
 from django.views.generic import DetailView
 from django.views.generic import FormView
 from django.views.generic import ListView, CreateView, UpdateView
-from django.views.generic.base import View, TemplateView
+from django.views.generic.base import TemplateView, RedirectView
 
 from forum.forms import RegisterForm
 from .models import Post, Category, Topic
@@ -13,7 +13,7 @@ from .models import Post, Category, Topic
 
 class RegisterView(FormView):
     form_class = RegisterForm
-    success_url = "/home"
+    success_url = "/success/"
     template_name = "forum/account/register.html"
 
     def form_valid(self, form):
@@ -23,7 +23,7 @@ class RegisterView(FormView):
 
 class LoginView(FormView):
     form_class = AuthenticationForm
-    success_url = "/home"
+    success_url = "/success/"
     template_name = "forum/account/login.html"
 
     def form_valid(self, form):
@@ -34,13 +34,11 @@ class LoginView(FormView):
 class SuccesView(TemplateView):
     template_name = 'forum/account/success.html'
 
-    def dispatch(self, *args, **kwargs):
-        return super(SuccesView, self).dispatch(*args, **kwargs)
 
-class LogoutView(View):
-    def get(self, request):
-        logout(request)
-        return HttpResponseRedirect("/home")
+class LogoutView(RedirectView):
+    def get_redirect_url(self):
+        logout(self.request)
+        return reverse('home_page')
 
 class HomeView(ListView):
     model = Category
