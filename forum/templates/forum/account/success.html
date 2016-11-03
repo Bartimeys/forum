@@ -1,0 +1,7 @@
+{% extends "forum/base.html" %}
+
+{% block content %}
+    <h1>Hello {{ user }}</h1>
+
+  <h3><a href="{% url 'accounts-logout' %}">Logout</a></h3>
+{% endblock %}

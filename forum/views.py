@@ -1,11 +1,44 @@
-from django.http import HttpResponseRedirect
-from django.shortcuts import render, get_object_or_404
+from django.contrib.auth import login
+from django.contrib.auth import logout
+from django.contrib.auth.forms import AuthenticationForm
+from django.core.urlresolvers import reverse
 from django.views.generic import DetailView
-from django.views.generic import ListView, TemplateView, View, CreateView, UpdateView
+from django.views.generic import FormView
+from django.views.generic import ListView, CreateView, UpdateView
+from django.views.generic.base import TemplateView, RedirectView
 
-from .forms import PostForm
+from forum.forms import RegisterForm
 from .models import Post, Category, Topic
-from django.contrib.auth.models import User
+
+
+class RegisterView(FormView):
+    form_class = RegisterForm
+    success_url = "/success/"
+    template_name = "forum/account/register.html"
+
+    def form_valid(self, form):
+        form.save()
+        return super(RegisterView, self).form_valid(form)
+
+
+class LoginView(FormView):
+    form_class = AuthenticationForm
+    success_url = "/success/"
+    template_name = "forum/account/login.html"
+
+    def form_valid(self, form):
+        self.user = form.get_user()
+        login(self.request, self.user)
+        return super(LoginView, self).form_valid(form)
+
+class SuccesView(TemplateView):
+    template_name = 'forum/account/success.html'
+
+
+class LogoutView(RedirectView):
+    def get_redirect_url(self):
+        logout(self.request)
+        return reverse('home_page')
 
 class HomeView(ListView):
     model = Category
@@ -60,27 +93,17 @@ class PostDetail(DetailView):
     template_name = 'forum/post_detail.html'
 
 
-
-
 class PostCreate(CreateView):
     model = Post
-    fields = ['title','body','topic']
+    fields = ['title', 'body', 'topic']
 
     def form_valid(self, form):
         form.instance.user = self.request.user
         print super(PostCreate, self).form_valid(form)
         return super(PostCreate, self).form_valid(form)
 
+
 class PostUpdate(UpdateView):
     model = Post
-    fields = ['title','body','topic']
+    fields = ['title', 'body', 'topic']
     template_name_suffix = '_update_form'
-
-
-class SuccessView(TemplateView):
-    template_name = 'forum/success.html'
-
-    def get_context_data(self, **kwargs):
-        context = super(SuccessView, self).get_context_data(**kwargs)
-        return context
-
